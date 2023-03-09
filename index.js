@@ -100,7 +100,7 @@ const enemy = new Fighter({
     x: -50,
     y: 0
   },
-  imageSrc: 'Idle.png',
+  imageSrc: 'Idle (1).png',
   framesMax: 4,
   scale: 2.5,
   offset: {
@@ -109,19 +109,19 @@ const enemy = new Fighter({
   },
   sprites: {
     idle: {
-      imageSrc: 'Idle.png',
+      imageSrc: 'Idle (1).png',
       framesMax: 4
     },
     run: {
-      imageSrc: '/Run.png',
+      imageSrc: 'Run (1).png',
       framesMax: 8
     },
     jump: {
-      imageSrc: 'Jump.png',
+      imageSrc: 'Jump (1).png',
       framesMax: 2
     },
     fall: {
-      imageSrc: 'Fall.png',
+      imageSrc: 'Fall (1).png',
       framesMax: 2
     },
     attack1: {
@@ -129,11 +129,11 @@ const enemy = new Fighter({
       framesMax: 4
     },
     takeHit: {
-      imageSrc: 'Take hit.png',
+      imageSrc: 'Take Hit (1).png',
       framesMax: 3
     },
     death: {
-      imageSrc: 'Death.png',
+      imageSrc: 'Death (1).png',
       framesMax: 7
     }
   },
