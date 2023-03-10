@@ -100,7 +100,7 @@ const enemy = new Fighter({
     x: -50,
     y: 0
   },
-  imageSrc: 'Idle (1).png',
+  imageSrc: 'Idle1.png',
   framesMax: 4,
   scale: 2.5,
   offset: {
